@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Character" load_steps=3 format=3 uid="uid://c674ggt5hdx5n"]
+
+[ext_resource type="Script" path="res://character/character.gd" id="1_ypl0l"]
+[ext_resource type="Resource" uid="uid://cjclsyawjp76o" path="res://skill/flurry/flurry.tres" id="2_fn7vc"]
+
+[resource]
+script = ExtResource("1_ypl0l")
+job = "Rogue"
+job_description = "A sneaky fellow, indeed!"
+melee = 3
+cunning = 4
+speed = 5
+start_AP = 5
+plan_AP = 1
+push_AP = 2
+push_VP = 10
+skills = Array[Resource("res://skill/skill.gd")]([ExtResource("2_fn7vc")])

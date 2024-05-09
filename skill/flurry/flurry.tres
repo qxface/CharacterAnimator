@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cjclsyawjp76o"]
+
+[ext_resource type="Script" path="res://skill/flurry/flurry.gd" id="1_b016b"]
+
+[resource]
+script = ExtResource("1_b016b")
+skill_name = "Flurry"
+skill_description = "A series of rapid blows, huh huh huh."
+target_type = 4
+ap_cost = 1
+base_stat = 0
+mulitplier = 1.0
+repeats = 3

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Character" load_steps=2 format=3 uid="uid://cpibag5nxdybi"]
+
+[ext_resource type="Script" path="res://character/character.gd" id="1_eox2f"]
+
+[resource]
+script = ExtResource("1_eox2f")
+job = "Huntress"
+job_description = "She bows and forests."
+melee = 2
+cunning = 3
+speed = 6
+start_AP = 0
+plan_AP = 3
+push_AP = 2
+push_VP = 10

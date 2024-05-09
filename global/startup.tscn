@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8fqonk4y5w6l"]
+
+[sub_resource type="GDScript" id="GDScript_ns2f6"]
+script/source = "extends Node2D
+
+
+func _ready() -> void:
+	Party.add_character(load(\"res://character/rogue/rogue.tres\"))
+
+	get_tree().call_deferred(\"change_scene_to_file\", \"res://world.tscn\")
+"
+
+[node name="Startup" type="Node2D"]
+script = SubResource("GDScript_ns2f6")
